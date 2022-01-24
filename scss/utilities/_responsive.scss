@@ -1,0 +1,79 @@
+// FIXME: Responsive for containers does not work
+
+// Small
+@media screen and (min-width: 576px ) {
+    .container {
+        max-width: 100%;
+        &.sm { max-width: 540px; }
+        &.md { max-width: 100%; }
+        &.lg { max-width: 100%; }
+        &.xl { max-width: 100%; }
+        &.xxl { max-width: 100%; }
+        &.fluid { max-width: 100%; }
+    }
+}
+
+// Medium
+@media screen and (min-width: 768px ) {
+    .container {
+        max-width: 100%;
+        &.sm { max-width: 720px; }
+        &.md { max-width: 720px; }
+        &.lg { max-width: 100%; }
+        &.xl { max-width: 100%; }
+        &.xxl { max-width: 100%; }
+        &.fluid { max-width: 100%; }
+    }
+}
+
+// Large
+@media screen and (min-width: 992px ) {
+    .container {
+        max-width: 100%;
+        &.sm { max-width: 960px; }
+        &.md { max-width: 960px; }
+        &.lg { max-width: 960px; }
+        &.xl { max-width: 100%; }
+        &.xxl { max-width: 100%; }
+        &.fluid { max-width: 100%; }
+    }
+}
+
+// X-Large
+@media screen and (min-width: 1200px ) {
+    .container {
+        max-width: 100%;
+        &.sm { max-width: 1140px; }
+        &.md { max-width: 1140px; }
+        &.lg { max-width: 1140px; }
+        &.xl { max-width: 1140px; }
+        &.xxl { max-width: 100%; }
+        &.fluid { max-width: 100%; }
+    }
+}
+
+// XX-Large
+@media screen and (min-width: 1400px ) {
+    .container {
+        max-width: 1320px;
+        &.sm { max-width: 1320px; }
+        &.md { max-width: 1320px; }
+        &.lg { max-width: 1320px; }
+        &.xl { max-width: 1320px; }
+        &.xxl { max-width: 1320px; }
+        &.fluid { max-width: 100%; }
+    }
+}
+
+// Extra small
+@media screen and (max-width: 576px ) {
+    .container {
+        max-width: 100%;
+        &.sm { max-width: 100%; }
+        &.md { max-width: 100%; }
+        &.lg { max-width: 100%; }
+        &.xl { max-width: 100%; }
+        &.xxl { max-width: 100%; }
+        &.fluid { max-width: 100%; }
+    }
+}

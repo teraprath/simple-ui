@@ -1,0 +1,50 @@
+$max: 100;
+
+.m-auto { margin: auto; }
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .m-#{$i} { margin: $val; }
+    .m-n#{$i} { margin: -$val; }
+}
+
+.mt-auto { margin-top: auto; }
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .mt-#{$i} { margin-top: $val; }
+    .mt-n#{$i} { margin-top: -$val; }
+}
+
+.mr-auto { margin-right: auto; }
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .mr-#{$i} { margin-right: $val; }
+    .mr-n#{$i} { margin-right: -$val; }
+}
+
+.mb-auto { margin-bottom: auto; }
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .mb-#{$i} { margin-bottom: $val; }
+    .mb-n#{$i} { margin-bottom: -$val; }
+}
+
+.ml-auto { margin-left: auto; }
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .ml-#{$i} { margin-left: $val; }
+    .ml-n#{$i} { margin-left: -$val; }
+}
+
+.mh-auto { margin: { left: auto; right: auto; }}
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .mh-#{$i} { margin: { left: $val; right: $val; }}
+    .mh-n#{$i} { margin: { left: -$val; right: -$val; }}
+}
+
+.mv-auto { margin: { top: auto; bottom: auto; }}
+@for $i from 1 through $max {
+    $val: .25em * $i;
+    .mh-#{$i} { margin: { top: $val; bottom: $val; }}
+    .mh-n#{$i} { margin: { top: -$val; bottom: -$val; }}
+}

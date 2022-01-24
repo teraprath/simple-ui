@@ -1,0 +1,12 @@
+.list {
+    &.type-none { list-style-type: none; }
+    &.type-circle { list-style-type: circle; }
+    &.type-disc { list-style-type: disc; }
+    &.type-square { list-style-type: square; }
+    &.type-decimal { list-style-type: decimal; }
+    &.type-lower-roman { list-style-type: lower-roman; }
+    &.type-upper-roman { list-style-type: upper-roman; }
+    &.type-lower-greek { list-style-type: lower-greek; }
+    &.type-lower-alpha { list-style-type: lower-alpha; }
+    &.type-upper-latin { list-style-type: upper-latin; }
+}
