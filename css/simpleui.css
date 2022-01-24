@@ -155,6 +155,142 @@ body {
   text-align: right;
 }
 
+.float-left, .ft-left {
+  float: left;
+}
+
+.float-right, .float-right {
+  float: right;
+}
+
+.t-primary {
+  color: #007bff;
+}
+
+.t-link {
+  color: #3273dc;
+}
+
+.t-info {
+  color: #17a4ba;
+}
+
+.t-success {
+  color: #36ba55;
+}
+
+.t-warning {
+  color: #ffc105;
+}
+
+.t-danger {
+  color: #dc3848;
+}
+
+.t-white {
+  color: white;
+}
+
+.t-white-ter {
+  color: whitesmoke;
+}
+
+.t-grey-lighter {
+  color: #dbdbdb;
+}
+
+.t-grey-light {
+  color: #b5b5b5;
+}
+
+.t-grey {
+  color: #7a7a7a;
+}
+
+.t-grey-dark {
+  color: #4a4a4a;
+}
+
+.t-grey-darker {
+  color: #363636;
+}
+
+.t-black-ter {
+  color: #242424;
+}
+
+.t-black {
+  color: #0a0a0a;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: #0a0a0a;
+}
+
+.bg-primary {
+  background-color: #007bff;
+}
+
+.bg-link {
+  background-color: #3273dc;
+}
+
+.bg-info {
+  background-color: #17a4ba;
+}
+
+.bg-success {
+  background-color: #36ba55;
+}
+
+.bg-warning {
+  background-color: #ffc105;
+}
+
+.bg-danger {
+  background-color: #dc3848;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-white-ter {
+  background-color: whitesmoke;
+}
+
+.bg-grey-lighter {
+  background-color: #dbdbdb;
+}
+
+.bg-grey-light {
+  background-color: #b5b5b5;
+}
+
+.bg-grey {
+  background-color: #7a7a7a;
+}
+
+.bg-grey-dark {
+  background-color: #4a4a4a;
+}
+
+.bg-grey-darker {
+  background-color: #363636;
+}
+
+.bg-black-ter {
+  background-color: #242424;
+}
+
+.bg-black {
+  background-color: #0a0a0a;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,6 +329,150 @@ body {
 
 .overflow-scroll, .ofw-scroll {
   overflow: scroll;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.cursor-wait {
+  cursor: wait;
+}
+
+.cursor-cell {
+  cursor: cell;
+}
+
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+
+.cursor-n-resize {
+  cursor: n-resize;
+}
+
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+
+.cursor-copy {
+  cursor: copy;
+}
+
+.cursor-no-drop {
+  cursor: no-drop;
+}
+
+.cursor-vertical-text {
+  cursor: vertical-text;
+}
+
+.cursor-alias {
+  cursor: alias;
+}
+
+.cursor-w-resize {
+  cursor: w-resize;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
+.cursor-e-resize {
+  cursor: e-resize;
+}
+
+.cursor-context-menu {
+  cursor: context-menu;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+
+.cursor-nwse-resize {
+  cursor: nwse-resize;
+}
+
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+
+.cursor-s-resize {
+  cursor: s-resize;
+}
+
+.cursor-se-resize {
+  cursor: se-resize;
+}
+
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+
+.cursor-row-resize {
+  cursor: row-resize;
+}
+
+.cursor-coll-resize {
+  cursor: col-resize;
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.cursor-zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.cursor-zoom-out {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+.cursor-grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 
 h1 {
