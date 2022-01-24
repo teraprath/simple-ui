@@ -1,53 +1,17 @@
-$max: 100;
-
 .p-auto { padding: auto; }
-@for $i from 1 through $max {
-    $val: .25em * $i;
-    .p-#{$i} {
-        padding: $val;
-    }
-}
-
 .pt-auto { padding-top: auto; }
-@for $i from 1 through $max {
-    $val: .25em * $i;
-    .pt-#{$i} {
-        padding-top: $val;
-    }
-}
-
 .pr-auto { padding-right: auto; }
-@for $i from 1 through $max {
-    $val: .25em * $i;
-    .pr-#{$i} {
-        padding-right: $val;
-    }
-}
-
 .pb-auto { padding-bottom: auto; }
-@for $i from 1 through $max {
-    $val: .25em * $i;
-    .pb-#{$i} {
-        padding-bottom: $val;
-    }
-}
-
 .pl-auto { padding-left: auto; }
-@for $i from 1 through $max {
-    $val: .25em * $i;
-    .pl-#{$i} {
-        padding-left: $val;
-    }
-}
-
 .ph-auto { padding: { left: auto; right: auto; }}
-@for $i from 1 through $max {
-    $val: .25em * $i;
-    .ph-#{$i} { padding: { left: $val; right: $val; }}
-}
-
 .pv-auto { padding: { top: auto; bottom: auto; }}
-@for $i from 1 through $max {
+@for $i from 1 through 100 {
     $val: .25em * $i;
+    .p-#{$i} { padding: $val; }
+    .pt-#{$i} { padding-top: $val; }
+    .pr-#{$i} { padding-right: $val; }
+    .pb-#{$i} { padding-bottom: $val; }
+    .pl-#{$i} { padding-left: $val; }
+    .ph-#{$i} { padding: { left: $val; right: $val; }}
     .ph-#{$i} { padding: { top: $val; bottom: $val; }}
 }

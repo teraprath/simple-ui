@@ -1,16 +1,5 @@
-// TODO: Variables with Javascript
-.g-0 { gap: 0; }
-.g-015 { gap: 0.15em; }
-.g-025 { gap: 0.25em; }
-.g-05 { gap: 0.5em; }
-.g-075 { gap: 0.75em; }
-.g-1 { gap: 1em; }
-.g-2 { gap: 1.5em; }
-.g-3 { gap: 2em; }
-.g-4 { gap: 2.5em; }
-.g-5 { gap: 3em; }
-.g-6 { gap: 3.5em; }
-.g-7 { gap: 4em; }
-.g-8 { gap: 4.5em; }
-.g-9 { gap: 5em; }
 .g-auto { gap: auto; }
+@for $i from 1 through 100 {
+    $val: .25em * $i;
+    .g-#{$i} { gap: $val; }
+}

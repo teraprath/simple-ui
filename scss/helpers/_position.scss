@@ -1,0 +1,11 @@
+.fixed { position: fixed; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+
+@for $i from 1 through 100 {
+    $val: .25em * $i;
+    .top-#{$i} { top: $val; }
+    .right-#{$i} { right: $val; }
+    .bottom-#{$i} { bottom: $val; }
+    .left-#{$i} { left: $val; }
+}
