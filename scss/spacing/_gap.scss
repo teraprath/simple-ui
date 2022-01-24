@@ -1,5 +1,5 @@
 .g-auto { gap: auto; }
-@for $i from 1 through 100 {
+@for $i from 0 through 25 {
     $val: .25em * $i;
     .g-#{$i} { gap: $val; }
 }
