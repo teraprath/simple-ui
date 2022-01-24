@@ -1,2 +1,2 @@
-# simple-ui
- CSS Framework
+# SimpleUI
+Modern, Simple & Clean
