@@ -15,88 +15,144 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.fs-1 {
+.fs-1, .font-size-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
 
-.fs-2 {
+.fs-2, .font-size-2 {
   font-size: calc(1.325rem + .9vw) !important;
 }
 
-.fs-3 {
+.fs-3, .font-size-3 {
   font-size: calc(1.3rem + .6vw) !important;
 }
 
-.fs-4 {
+.fs-4, .font-size-4 {
   font-size: calc(1.275rem + .3vw) !important;
 }
 
-.fs-5 {
+.fs-5, .font-size-5 {
   font-size: 1.25rem !important;
 }
 
-.fs-6 {
+.fs-6, .font-size-6 {
   font-size: 1rem !important;
 }
 
-.s-1 {
+.ts-1, .text-size-1 {
   font-size: 0.25rem;
 }
 
-.s-2 {
+.ts-2, .text-size-2 {
   font-size: 0.5rem;
 }
 
-.s-3 {
+.ts-3, .text-size-3 {
   font-size: 0.75rem;
 }
 
-.s-4 {
+.ts-4, .text-size-4 {
   font-size: 1rem;
 }
 
-.s-5 {
+.ts-5, .text-size-5 {
   font-size: 1.25rem;
 }
 
-.s-6 {
+.ts-6, .text-size-6 {
   font-size: 1.5rem;
 }
 
-.s-7 {
+.ts-7, .text-size-7 {
   font-size: 1.75rem;
 }
 
-.s-8 {
+.ts-8, .text-size-8 {
   font-size: 2rem;
 }
 
-.s-9 {
+.ts-9, .text-size-9 {
   font-size: 2.25rem;
 }
 
-.s-10 {
+.ts-10, .text-size-10 {
   font-size: 2.5rem;
 }
 
-.s-11 {
+.ts-11, .text-size-11 {
   font-size: 2.75rem;
 }
 
-.s-12 {
+.ts-12, .text-size-12 {
   font-size: 3rem;
 }
 
-.s-13 {
+.ts-13, .text-size-13 {
   font-size: 3.25rem;
 }
 
-.s-14 {
+.ts-14, .text-size-14 {
   font-size: 3.5rem;
 }
 
-.s-15 {
+.ts-15, .text-size-15 {
   font-size: 3.75rem;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semi-bold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.t-capitalize {
+  text-transform: capitalize;
+}
+
+.t-lowercase {
+  text-transform: lowercase;
+}
+
+.t-uppercase {
+  text-transform: uppercase;
+}
+
+.t-italic {
+  text-transform: italic;
+}
+
+.t-underline {
+  text-decoration: underline;
+}
+
+.t-justify {
+  text-align: justify;
+}
+
+.t-align-center {
+  text-align: center;
+}
+
+.t-align-left {
+  text-align: left;
+}
+
+.t-align-right {
+  text-align: right;
 }
 
 .flex {
