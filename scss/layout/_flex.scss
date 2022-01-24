@@ -40,26 +40,14 @@
 .flex-align-self-baseline, .f-align-self-baseline { align-self: baseline; }
 .flex-align-self-stretch, .f-align-self-stretch { align-self: stretch; }
 
-// TODO: Variables with Javascript
-.flex-grow-0, .f-grow-0 { flex-grow: 0; }
-.flex-grow-1, .f-grow-1 { flex-grow: 1; }
-.flex-grow-2, .f-grow-2 { flex-grow: 2; }
-.flex-grow-3, .f-grow-3 { flex-grow: 3; }
-.flex-grow-4, .f-grow-4 { flex-grow: 4; }
-.flex-grow-5, .f-grow-5 { flex-grow: 5; }
-.flex-grow-6, .f-grow-6 { flex-grow: 6; }
-.flex-grow-7, .f-grow-7 { flex-grow: 7; }
-.flex-grow-8, .f-grow-8 { flex-grow: 8; }
-.flex-grow-9, .f-grow-9 { flex-grow: 9; }
+@for $i from 0 to 100 {
+    .flex-grow-#{$i}, .f-grow-#{$i} {
+        flex-grow: $i;
+    }
+}
 
-// TODO: Variables with Javascript
-.flex-shrink-0, .f-shrink-0 { flex-shrink: 0; }
-.flex-shrink-1, .f-shrink-1 { flex-shrink: 1; }
-.flex-shrink-2, .f-shrink-2 { flex-shrink: 2; }
-.flex-shrink-3, .f-shrink-3 { flex-shrink: 3; }
-.flex-shrink-4, .f-shrink-4 { flex-shrink: 4; }
-.flex-shrink-5, .f-shrink-5 { flex-shrink: 5; }
-.flex-shrink-6, .f-shrink-6 { flex-shrink: 6; }
-.flex-shrink-7, .f-shrink-7 { flex-shrink: 7; }
-.flex-shrink-8, .f-shrink-8 { flex-shrink: 8; }
-.flex-shrink-9, .f-shrink-9 { flex-shrink: 9; }
+@for $i from 0 to 100 {
+    .flex-shrink-#{$i}, .f-shrink-#{$i} {
+        flex-shrink: $i;
+    }
+}
