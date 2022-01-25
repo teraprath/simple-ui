@@ -1,3 +1,4 @@
 .container {
     &.fluid { width: 100%; }
+    &.code-block { padding: 1em; background-color: $light; }
 }

@@ -1,12 +1,12 @@
-.p-auto { padding: auto; }
-.pt-auto { padding-top: auto; }
-.pr-auto { padding-right: auto; }
-.pb-auto { padding-bottom: auto; }
-.pl-auto { padding-left: auto; }
-.ph-auto { padding: { left: auto; right: auto; }}
-.pv-auto { padding: { top: auto; bottom: auto; }}
+.p-auto { padding: auto !important; }
+.pt-auto { padding-top: auto !important; }
+.pr-auto { padding-right: auto !important; }
+.pb-auto { padding-bottom: auto !important; }
+.pl-auto { padding-left: auto !important; }
+.ph-auto { padding: { left: auto !important; right: auto !important; }}
+.pv-auto { padding: { top: auto !important; bottom: auto !important; }}
 @for $i from 0 through 25 {
-    $val: .25em * $i;
+    $val: .25em * $i !important;
     .p-#{$i} { padding: $val; }
     .pt-#{$i} { padding-top: $val; }
     .pr-#{$i} { padding-right: $val; }

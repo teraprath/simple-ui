@@ -1,12 +1,12 @@
-.m-auto { margin: auto; }
-.mt-auto { margin-top: auto; }
-.mr-auto { margin-right: auto; }
-.mb-auto { margin-bottom: auto; }
-.ml-auto { margin-left: auto; }
-.mh-auto { margin: { left: auto; right: auto; }}
-.mv-auto { margin: { top: auto; bottom: auto; }}
+.m-auto { margin: auto !important; }
+.mt-auto { margin-top: auto !important; }
+.mr-auto { margin-right: auto !important; }
+.mb-auto { margin-bottom: auto !important; }
+.ml-auto { margin-left: auto !important; }
+.mh-auto { margin: { left: auto !important; right: auto !important; }}
+.mv-auto { margin: { top: auto !important; bottom: auto !important; }}
 @for $i from 0 through 25 {
-    $val: .25em * $i;
+    $val: .25em * $i !important;
     .m-#{$i} { margin: $val; }
     .m-n#{$i} { margin: -$val; }
     .mt-#{$i} { margin-top: $val; }

@@ -1,3 +1,20 @@
+h1 { font: { size: calc(1.375rem + 1.5vw); weight: $fw-medium; } @include heading; }
+h2 { font: { size: calc(1.325rem + .9vw); weight: $fw-medium; } @include heading; }
+h3 { font: { size: calc(1.3rem + .6vw); weight: $fw-medium; } @include heading; }
+h4 { font: { size: calc(1.275rem + .3vw); weight: $fw-medium; } @include heading; }
+h5 { font: { size: 1.25rem; weight: $fw-medium; } @include heading; }
+h6 { font: { size: 1rem; weight: $fw-medium; } @include heading; }
+
+.display-1 { font-size: calc(1.625rem + 4.5vw); }
+.display-2 { font-size: calc(1.575rem + 3.9vw); }
+.display-3 { font-size: calc(1.525rem + 3.3vw); }
+.display-4 { font-size: calc(1.475rem + 2.7vw); }
+.display-5 { font-size: calc(1.425rem + 2.1vw); }
+.display-6 { font-size: calc(1.375rem + 1.5vw); }
+
+p, a, pre { font: { family: $font; size: 1rem; weight: $fw-normal; }}
+a { color: $link; }
+
 .fs-1, .font-size-1 { font-size: calc(1.375rem + 1.5vw) !important; }
 .fs-2, .font-size-2 { font-size: calc(1.325rem + .9vw) !important; }
 .fs-3, .font-size-3 { font-size: calc(1.3rem + .6vw) !important; }
@@ -7,22 +24,22 @@
 
 @for $i from 1 to 16 {
     $val: .25rem * $i;
-    .ts-#{$i}, .text-size-#{$i} { font-size: $val; }
+    .ts-#{$i}, .text-size-#{$i} { font-size: $val !important; }
 }
 
-.fw-light { font-weight: $fw-light }
-.fw-normal { font-weight: $fw-normal }
-.fw-medium { font-weight: $fw-medium }
-.fw-semi-bold { font-weight: $fw-semi-bold }
-.fw-bold { font-weight: $fw-bold }
+.fw-light { font-weight: $fw-light !important; }
+.fw-normal { font-weight: $fw-normal !important; }
+.fw-medium { font-weight: $fw-medium !important; }
+.fw-semi-bold { font-weight: $fw-semi-bold !important; }
+.fw-bold { font-weight: $fw-bold !important; }
 
-.t-capitalize { text-transform: capitalize; }
-.t-lowercase { text-transform: lowercase; }
-.t-uppercase { text-transform: uppercase; }
-.t-italic { text-transform: italic; }
-.t-underline { text-decoration: underline; }
-.t-justify { text-align: justify; }
+.t-capitalize { text-transform: capitalize !important; }
+.t-lowercase { text-transform: lowercase !important; }
+.t-uppercase { text-transform: uppercase !important; }
+.t-italic { text-transform: italic !important; }
+.t-underline { text-decoration: underline !important; }
+.t-justify { text-align: justify !important; }
 
-.t-align-center { text-align: center; }
-.t-align-left { text-align: left; }
-.t-align-right { text-align: right; }
+.t-align-center { text-align: center !important; }
+.t-align-left { text-align: left !important; }
+.t-align-right { text-align: right !important; }

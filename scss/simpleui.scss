@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+// Defaults
 @import "variables";
 @import "mixins";
-@import "default";
+@import "reset";
 
-// Utilities: Low
+// Utilities
 @import "utilities/background";
 @import "utilities/text";
 @import "utilities/float";
@@ -12,10 +16,11 @@
 @import "utilities/display";
 @import "utilities/overflow";
 @import "utilities/cursor";
+@import "utilities/shadows";
 
 // Content
-@import "content/typography";
 @import "content/list";
+@import "content/code";
 
 // Layout
 @import "layout/section";
@@ -31,6 +36,5 @@
 // Helpers
 @import "helpers/position";
 
-// Utilities: High
-@import "utilities/cursor";
-@import "utilities/responsive";
+// Responsive
+@import "responsive";
