@@ -1,0 +1,33 @@
+.table {
+    background-color: $white;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    border-radius: $radius-md;
+    box-shadow: $box-shadow-md;
+
+    // Default
+    @include table($primary, $white);
+
+    // Colors
+    &.secondary { @include table($secondary, $white); }
+    &.success { @include table($success, $white); }
+    &.danger { @include table($danger, $white); }
+    &.warning { @include table($warning, $grey-darker); }
+    &.info { @include table($info, $white); }
+    &.link { @include table($link, $link); }
+    &.light { @include table($light, $grey-darker); }
+    &.dark { @include table($dark, $white); }
+
+    &.hover {
+        tbody {
+            tr {
+                transition: .2s;
+                &:hover {
+                    background-color: $white-ter;
+                }
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@
     border-radius: $radius-md;
     cursor: pointer;
     color: $white;
+    font-weight: 500;
 
     // Default
     @include button($primary, $primary-shadow, $primary-outline);
