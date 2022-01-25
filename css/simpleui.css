@@ -2776,7 +2776,7 @@ section.section.full {
 }
 
 .button {
-  padding: 0.5em 1em;
+  padding: .5em 1em;
   border: none;
   outline: none;
   border-radius: 0.5em;
@@ -2785,6 +2785,7 @@ section.section.full {
   background-color: #007bff;
   -webkit-transition: .3s;
   transition: .3s;
+  font-size: 1rem;
 }
 
 .button:hover {
@@ -2922,7 +2923,7 @@ section.section.full {
 }
 
 .button.light:focus {
-  outline: 0.15em solid rgba(249, 250, 251, 0.5);
+  outline: 0.15em solid rgba(174, 186, 198, 0.5);
   -webkit-transition: .05s;
   transition: .05s;
 }
@@ -2941,6 +2942,158 @@ section.section.full {
   outline: 0.15em solid rgba(53, 59, 65, 0.5);
   -webkit-transition: .05s;
   transition: .05s;
+}
+
+.button.primary-light {
+  background-color: rgba(0, 123, 255, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #007bff;
+}
+
+.button.primary-light:hover {
+  background-color: rgba(0, 123, 255, 0.4);
+}
+
+.button.primary-light:focus {
+  outline: 0.15em solid rgba(0, 123, 255, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.secondary-light {
+  background-color: rgba(109, 118, 126, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #6d767e;
+}
+
+.button.secondary-light:hover {
+  background-color: rgba(109, 118, 126, 0.4);
+}
+
+.button.secondary-light:focus {
+  outline: 0.15em solid rgba(109, 118, 126, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.success-light {
+  background-color: rgba(54, 186, 85, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #36ba55;
+}
+
+.button.success-light:hover {
+  background-color: rgba(54, 186, 85, 0.4);
+}
+
+.button.success-light:focus {
+  outline: 0.15em solid rgba(54, 186, 85, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.danger-light {
+  background-color: rgba(220, 56, 72, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #dc3848;
+}
+
+.button.danger-light:hover {
+  background-color: rgba(220, 56, 72, 0.4);
+}
+
+.button.danger-light:focus {
+  outline: 0.15em solid rgba(220, 56, 72, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.warning-light {
+  background-color: rgba(255, 193, 5, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #ffc105;
+}
+
+.button.warning-light:hover {
+  background-color: rgba(255, 193, 5, 0.4);
+}
+
+.button.warning-light:focus {
+  outline: 0.15em solid rgba(255, 193, 5, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.info-light {
+  background-color: rgba(23, 164, 186, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #17a4ba;
+}
+
+.button.info-light:hover {
+  background-color: rgba(23, 164, 186, 0.4);
+}
+
+.button.info-light:focus {
+  outline: 0.15em solid rgba(23, 164, 186, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.link-light {
+  background-color: rgba(50, 115, 220, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #3273dc;
+}
+
+.button.link-light:hover {
+  background-color: rgba(50, 115, 220, 0.4);
+}
+
+.button.link-light:focus {
+  outline: 0.15em solid rgba(50, 115, 220, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.dark-light {
+  background-color: rgba(53, 59, 65, 0.25);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #353b41;
+}
+
+.button.dark-light:hover {
+  background-color: rgba(53, 59, 65, 0.4);
+}
+
+.button.dark-light:focus {
+  outline: 0.15em solid rgba(53, 59, 65, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.button.sm {
+  font-size: 0.75rem;
+}
+
+.button.md {
+  font-size: 1rem;
+}
+
+.button.lg {
+  font-size: 1.25rem;
+}
+
+.button.xl {
+  font-size: 1.5rem;
 }
 
 .p-auto {

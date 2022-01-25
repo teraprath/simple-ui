@@ -3,9 +3,9 @@
     line-height: 1.2;
 }
 
-@mixin button($color, $shadow, $light) {
+@mixin button($color, $shadow, $outline) {
     background-color: $color;
     transition: .3s;
     &:hover { background-color: $shadow; }
-    &:focus { outline: .15em solid $light; transition: .05s; }
+    &:focus { outline: .15em solid $outline; transition: .05s; }
 }
