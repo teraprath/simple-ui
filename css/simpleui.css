@@ -3096,6 +3096,56 @@ section.section.full {
   font-size: 1.5rem;
 }
 
+.progress {
+  width: 100%;
+  height: 1em;
+  background-color: whitesmoke;
+  border-radius: 0.5em;
+}
+
+.progress .bar {
+  height: 100%;
+  background-color: #7a7a7a;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.progress.primary .bar {
+  background-color: #007bff;
+}
+
+.progress.secondary .bar {
+  background-color: #6d767e;
+}
+
+.progress.link .bar {
+  background-color: #3273dc;
+}
+
+.progress.info .bar {
+  background-color: #17a4ba;
+}
+
+.progress.success .bar {
+  background-color: #36ba55;
+}
+
+.progress.warning .bar {
+  background-color: #ffc105;
+}
+
+.progress.danger .bar {
+  background-color: #dc3848;
+}
+
+.progress.light .bar {
+  background-color: #f9fafb;
+}
+
+.progress.dark .bar {
+  background-color: #353b41;
+}
+
 .p-auto {
   padding: auto !important;
 }

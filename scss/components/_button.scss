@@ -20,7 +20,7 @@
     &.link { @include button($link, $link-shadow, $link-outline); }
     &.light { @include button($light, $light-shadow, $light-outline); color: $grey-darker; }
     &.dark { @include button($dark, $dark-shadow, $dark-outline); }
-
+    
     &.primary-light { @include button($primary-light, $primary-light-shadow, $primary-outline); color: $primary; }
     &.secondary-light { @include button($secondary-light, $secondary-light-shadow, $secondary-outline); color: $secondary; }
     &.success-light { @include button($success-light, $success-light-shadow, $success-outline); color: $success; }

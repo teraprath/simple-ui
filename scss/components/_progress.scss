@@ -1,0 +1,23 @@
+.progress {
+    width: 100%;
+    height: 1em;
+    background-color: $white-ter;
+    border-radius: $radius-md;
+    
+    .bar {
+        height: 100%;
+        background-color: $grey;
+        border: { top-left-radius: $radius-md; bottom-left-radius: $radius-md; }
+    }
+
+    // Colors
+    &.primary { .bar { background-color: $primary; }}
+    &.secondary { .bar { background-color: $secondary; }}
+    &.link { .bar { background-color: $link; }}
+    &.info { .bar { background-color: $info; }}
+    &.success { .bar { background-color: $success; }}
+    &.warning { .bar { background-color: $warning; }}
+    &.danger { .bar { background-color: $danger; }}
+    &.light { .bar { background-color: $light; }}
+    &.dark { .bar { background-color: $dark; }}
+}
