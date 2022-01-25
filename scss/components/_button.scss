@@ -6,6 +6,8 @@
     cursor: pointer;
     color: $white;
     font-weight: 500;
+    text-decoration: none;
+    user-select: none;
 
     // Default
     @include button($primary, $primary-shadow, $primary-outline);
@@ -36,4 +38,22 @@
     &.md { font-size: 1rem; }
     &.lg { font-size: 1.25rem; }
     &.xl { font-size: 1.5rem; }
+
+    // Attributes
+    &:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    // Icons
+    &.icon-left {
+        .fas, .far {
+            color: $white;
+            margin-right: .25em;
+        }
+    }
+
+    &.icon-right {
+        .fas, .far {
+            color: $white;
+            margin-left: .25em;
+        }
+    }
 }

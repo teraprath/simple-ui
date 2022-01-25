@@ -224,6 +224,10 @@ a {
   text-align: justify !important;
 }
 
+.t-none {
+  text-align: none !important;
+}
+
 .t-align-center {
   text-align: center !important;
 }
@@ -234,6 +238,42 @@ a {
 
 .t-align-right {
   text-align: right !important;
+}
+
+.t-decoration-none {
+  text-decoration: none;
+}
+
+.t-decoration-dashed {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.t-decoration-dotted {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+
+.t-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.t-decoration-overline {
+  text-decoration: overline;
+}
+
+.t-decoration-solid {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.t-decoration-underline {
+  text-decoration: underline;
+}
+
+.t-decoration-wavy {
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
 }
 
 .float-left, .ft-left {
@@ -5588,6 +5628,11 @@ section.section.full {
   cursor: pointer;
   color: white;
   font-weight: 500;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-color: #007bff;
   -webkit-transition: .3s;
   transition: .3s;
@@ -5900,6 +5945,21 @@ section.section.full {
 
 .button.xl {
   font-size: 1.5rem;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button.icon-left .fas, .button.icon-left .far {
+  color: white;
+  margin-right: .25em;
+}
+
+.button.icon-right .fas, .button.icon-right .far {
+  color: white;
+  margin-left: .25em;
 }
 
 .progress {

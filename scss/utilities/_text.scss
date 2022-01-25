@@ -39,7 +39,17 @@ a { color: $link; }
 .t-italic { text-transform: italic !important; }
 .t-underline { text-decoration: underline !important; }
 .t-justify { text-align: justify !important; }
+.t-none { text-align: none !important; }
 
 .t-align-center { text-align: center !important; }
 .t-align-left { text-align: left !important; }
 .t-align-right { text-align: right !important; }
+
+.t-decoration-none { text-decoration: none; }
+.t-decoration-dashed { text-decoration: dashed; }
+.t-decoration-dotted { text-decoration: dotted; }
+.t-decoration-line-through { text-decoration: line-through;  }
+.t-decoration-overline { text-decoration: overline; }
+.t-decoration-solid { text-decoration: solid; }
+.t-decoration-underline { text-decoration: underline; }
+.t-decoration-wavy { text-decoration: wavy; }
