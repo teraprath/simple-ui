@@ -636,6 +636,30 @@ a {
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
+.radius-none {
+  border-radius: none !important;
+}
+
+.radius-sm {
+  border-radius: 0.25em !important;
+}
+
+.radius-md {
+  border-radius: 0.5em !important;
+}
+
+.radius-lg {
+  border-radius: 1em !important;
+}
+
+.radius-xl {
+  border-radius: 1.25em !important;
+}
+
+.radius-circle {
+  border-radius: 100% !important;
+}
+
 .list.type-none {
   list-style-type: none;
 }
@@ -685,6 +709,7 @@ code {
   border-collapse: collapse;
   width: 100%;
   text-align: left;
+  white-space: nowrap;
 }
 
 .table thead td {
@@ -704,7 +729,6 @@ code {
 
 .table td {
   padding: 1em 0;
-  white-space: nowrap;
 }
 
 section.section.full {
@@ -5436,6 +5460,42 @@ section.section.full {
   border-radius: 0.5em;
   padding: 1em;
   margin: 1em;
+}
+
+.box.border-primary {
+  border-left: 0.4em solid #007bff;
+}
+
+.box.border-secondary {
+  border-left: 0.4em solid #6d767e;
+}
+
+.box.border-success {
+  border-left: 0.4em solid #36ba55;
+}
+
+.box.border-danger {
+  border-left: 0.4em solid #dc3848;
+}
+
+.box.border-warning {
+  border-left: 0.4em solid #ffc105;
+}
+
+.box.border-info {
+  border-left: 0.4em solid #17a4ba;
+}
+
+.box.border-link {
+  border-left: 0.4em solid #3273dc;
+}
+
+.box.border-light {
+  border-left: 0.4em solid #f9fafb;
+}
+
+.box.border-dark {
+  border-left: 0.4em solid #353b41;
 }
 
 .button {

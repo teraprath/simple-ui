@@ -3,6 +3,7 @@
     border-collapse: collapse;
     width: 100%;
     text-align: left;
+    white-space: nowrap;
 
     thead { 
         td {
@@ -21,5 +22,5 @@
         }
     }
 
-    td { padding: 1em 0; white-space: nowrap; }
+    td { padding: 1em 0; }
 }

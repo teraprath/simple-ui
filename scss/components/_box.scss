@@ -4,4 +4,14 @@
     border-radius: $radius-md;
     padding: 1em;
     margin: 1em;
+
+    &.border-primary { border-left: .4em solid $primary;}
+    &.border-secondary { border-left: .4em solid $secondary;}
+    &.border-success { border-left: .4em solid $success;}
+    &.border-danger { border-left: .4em solid $danger;}
+    &.border-warning { border-left: .4em solid $warning;}
+    &.border-info { border-left: .4em solid $info;}
+    &.border-link { border-left: .4em solid $link;}
+    &.border-light { border-left: .4em solid $light;}
+    &.border-dark { border-left: .4em solid $dark;}
 }
