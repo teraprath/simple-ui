@@ -9,21 +9,3 @@
     &:hover { background-color: $shadow; }
     &:focus { outline: .15em solid $outline; transition: .05s; }
 }
-
-@mixin table($color, $color-text) {
-    thead { 
-        background-color: $color;
-
-        td {
-            color: $color-text;
-            font-weight: $fw-bold;
-        }
-    }
-
-    tbody {
-        border-bottom: .15em solid $color;
-        tr { &:nth-child(even) { background-color: $light; }}
-    }
-
-    td { padding: .75em; }
-}
