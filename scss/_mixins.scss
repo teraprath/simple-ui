@@ -2,3 +2,10 @@
     margin: { top: 0; bottom: .5rem; }
     line-height: 1.2;
 }
+
+@mixin button($color, $shadow, $light) {
+    background-color: $color;
+    transition: .3s;
+    &:hover { background-color: $shadow; }
+    &:focus { outline: .15em solid $light; transition: .05s; }
+}

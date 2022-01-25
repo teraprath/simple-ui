@@ -1,0 +1,22 @@
+.button {
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    border-radius: $radius-md;
+    cursor: pointer;
+    color: $white;
+
+    // Default
+    @include button($primary, $primary-shadow, $primary-light);
+
+    // Colors
+    &.primary { @include button($primary, $primary-shadow, $primary-light); }
+    &.secondary { @include button($secondary, $secondary-shadow, $secondary-light); }
+    &.success { @include button($success, $success-shadow, $success-light); }
+    &.danger { @include button($danger, $danger-shadow, $danger-light); }
+    &.warning { @include button($warning, $warning-shadow, $warning-light); color: $grey-darker; }
+    &.info { @include button($info, $info-shadow, $info-light); }
+    &.link { @include button($link, $link-shadow, $link-light); }
+    &.light { @include button($light, $light-shadow, $light-light); color: $grey-darker; }
+    &.dark { @include button($dark, $dark-shadow, $dark-light); }
+}

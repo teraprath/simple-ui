@@ -13,8 +13,26 @@ $link: hsl(217, 71%, 53%);
 $light: hsl(210, 17%, 98%);
 $dark: hsl(210, 10%, 23%);
 
+$primary-shadow: hsl(211, 100%, 47%);
+$secondary-shadow: hsl(208, 7%, 43%);
+$success-shadow: hsl(134, 55%, 44%);
+$danger-shadow: hsl(354, 70%, 51%);
+$warning-shadow: hsl(45, 100%, 48%);
+$info-shadow: hsl(188, 78%, 38%);
+$link-shadow: hsl(217, 71%, 50%);
+$light-shadow: hsl(210, 17%, 96%);
+$dark-shadow: hsl(210, 10%, 20%);
 
-// Shadow Palette
+$primary-light: hsla(211, 100%, 50%, 0.5);
+$secondary-light: hsla(208, 7%, 46%, 0.5);
+$success-light: hsla(134, 55%, 47%, 0.5);
+$danger-light: hsla(354, 70%, 54%, 0.5);
+$warning-light: hsla(45, 100%, 51%, 0.5);
+$info-light: hsla(188, 78%, 41%, 0.5);
+$link-light: hsla(217, 71%, 53%, 0.5);
+$light-light: hsla(210, 17%, 98%, 0.5);
+$dark-light: hsla(210, 10%, 23%, 0.5);
+
 $white: hsl(0, 0%, 100%);
 $white-ter: hsl(0, 0%, 96%);
 $grey-lighter: hsl(0, 0%, 86%);
@@ -33,7 +51,14 @@ $fw-semi-bold: 600;
 $fw-bold: 700;
 
 // Box Shadow
-$box-shadow-none: none !important;
-$box-shadow-sm: 0 .125rem .25rem rgba(0,0,0,.075) !important;
-$box-shadow-md: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-$box-shadow-lg: 0 1rem 3rem rgba(0,0,0,.175) !important;
+$box-shadow-none: none;
+$box-shadow-sm: 0 .125rem .25rem rgba(0,0,0,.075);
+$box-shadow-md: 0 .5rem 1rem rgba(0,0,0,.15);
+$box-shadow-lg: 0 1rem 3rem rgba(0,0,0,.175);
+
+// Border Radius
+$radius-none: none;
+$radius-sm: 0.25em;
+$radius-md: 0.5em;
+$radius-lg: 1em;
+$radius-circle: 100%;

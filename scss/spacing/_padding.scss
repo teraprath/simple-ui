@@ -13,5 +13,5 @@
     .pb-#{$i} { padding-bottom: $val; }
     .pl-#{$i} { padding-left: $val; }
     .ph-#{$i} { padding: { left: $val; right: $val; }}
-    .ph-#{$i} { padding: { top: $val; bottom: $val; }}
+    .pv-#{$i} { padding: { top: $val; bottom: $val; }}
 }

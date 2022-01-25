@@ -19,6 +19,6 @@
     .ml-n#{$i} { margin-left: -$val; }
     .mh-#{$i} { margin: { left: $val; right: $val; }}
     .mh-n#{$i} { margin: { left: -$val; right: -$val; }}
-    .mh-#{$i} { margin: { top: $val; bottom: $val; }}
-    .mh-n#{$i} { margin: { top: -$val; bottom: -$val; }}
+    .mv-#{$i} { margin: { top: $val; bottom: $val; }}
+    .mv-n#{$i} { margin: { top: -$val; bottom: -$val; }}
 }
