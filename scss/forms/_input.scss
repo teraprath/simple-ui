@@ -19,8 +19,8 @@
     &.dark { @include input($dark-outline); }
 
     // Sizes
-    &.sm { input { font-size: 0.75rem; }}
-    &.md { input { font-size: 1rem; }}
-    &.lg { input { font-size: 1.25rem; }}
-    &.xl { input { font-size: 1.5rem; }}
+    &.sm { font-size: 0.75rem; }
+    &.md { font-size: 1rem; }
+    &.lg { font-size: 1.25rem; }
+    &.xl { font-size: 1.5rem; }
 }

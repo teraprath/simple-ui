@@ -1,0 +1,81 @@
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    padding: 1.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25em;
+    z-index: 1;
+
+    .logo {
+        p, a {
+            font-size: 1.5rem;
+            font-weight: $fw-semi-bold;
+            user-select: none;
+            cursor: pointer;
+            text-decoration: none;
+            color: $grey-darker;
+        }
+    }
+
+    .items {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            gap: 1.25em;
+    
+            li {
+                cursor: pointer;
+    
+                a {
+                    text-decoration: none;
+                    color: $grey;
+                    font-size: 1rem;
+    
+                    transition: .2s;
+                    &:hover { color: $grey-darker; }
+                }
+            }
+        }
+    }
+
+    // Responsive
+    &.breakpoint-sm {
+        @media screen and (max-width: $breakpoint-sm) {
+            .items { display: none; }
+        }
+    }
+
+    &.breakpoint-md {
+        @media screen and (max-width: $breakpoint-md) {
+            .items { display: none; }
+        }
+    }
+
+    &.breakpoint-lg {
+        @media screen and (max-width: $breakpoint-lg) {
+            .items { display: none; }
+        }
+    }
+
+    &.breakpoint-xl {
+        @media screen and (max-width: $breakpoint-xl) {
+            .items { display: none; }
+        }
+    }
+
+    &.breakpoint-xxl {
+        @media screen and (max-width: $breakpoint-xxl) {
+            .items { display: none; }
+        }
+    }
+}

@@ -5,7 +5,7 @@
 .ml-auto { margin-left: auto !important; }
 .mh-auto { margin: { left: auto !important; right: auto !important; }}
 .mv-auto { margin: { top: auto !important; bottom: auto !important; }}
-@for $i from 0 through 25 {
+@for $i from 0 through 26 {
     $val: .25em * $i !important;
     $nval: .25em * -$i !important;
     .m-#{$i} { margin: $val; }

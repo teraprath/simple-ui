@@ -1,4 +1,4 @@
-@for $i from 0 through 100 {
+@for $i from 0 through 50 {
     .z-index-#{$i}, .zi-#{$i} { z-index: $i; }
     .z-index-n#{$i}, .zi-n#{$i} { z-index: -$i; }
 }

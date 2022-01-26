@@ -5,7 +5,7 @@
 .pl-auto { padding-left: auto !important; }
 .ph-auto { padding: { left: auto !important; right: auto !important; }}
 .pv-auto { padding: { top: auto !important; bottom: auto !important; }}
-@for $i from 0 through 25 {
+@for $i from 0 through 26 {
     $val: .25em * $i !important;
     .p-#{$i} { padding: $val; }
     .pt-#{$i} { padding-top: $val; }

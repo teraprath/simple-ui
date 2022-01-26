@@ -1,33 +1,13 @@
-.h-full { height: 100% !important; }
-.h-half { height: 50% !important; }
-.h-1-4 { height: 25% !important; }
-.h-3-4 { height: 75% !important; }
-.h-1-5 { height: 20% !important; }
-.h-2-5 { height: 40% !important; }
-.h-3-5 { height: 60% !important; }
-.h-4-5 { height: 80% !important; }
+.h-full { min-height: 100% !important; }
+.h-half { min-height: 50% !important; }
+.h-1-4 { min-height: 25% !important; }
+.h-3-4 { min-height: 75% !important; }
+.h-1-5 { min-height: 20% !important; }
+.h-2-5 { min-height: 40% !important; }
+.h-3-5 { min-height: 60% !important; }
+.h-4-5 { min-height: 80% !important; }
 
-.mw-full { min-height: 100% !important; }
-.mw-half { min-height: 50% !important; }
-.mw-1-4 { min-height: 25% !important; }
-.mw-3-4 { min-height: 75% !important; }
-.mw-1-5 { min-height: 20% !important; }
-.mw-2-5 { min-height: 40% !important; }
-.mw-3-5 { min-height: 60% !important; }
-.mw-4-5 { min-height: 80% !important; }
-
-.mxw-full { max-height: 100% !important; }
-.mxw-half { max-height: 50% !important; }
-.mxw-1-4 { max-height: 25% !important; }
-.mxw-3-4 { max-height: 75% !important; }
-.mxw-1-5 { max-height: 20% !important; }
-.mxw-2-5 { max-height: 40% !important; }
-.mxw-3-5 { max-height: 60% !important; }
-.mxw-4-5 { max-height: 80% !important; }
-
-@for $i from 0 to 100 {
+@for $i from 0 to 76 {
     $val: 1em * $i !important;
     .h-#{$i} { height: $val; }
-    .mw-#{$i} { min-height: $val; }
-    .mxw-#{$i} { max-height: $val; }
 }
