@@ -23,7 +23,14 @@
     &.link-light { @include button($link-light, $link-light-shadow, $link-outline); color: $link; }
     &.dark-light { @include button($dark-light, $dark-light-shadow, $dark-outline); color: $dark; }
 
-    // TODO: Outlined-Version
+    &.primary-outlined { @include button($white, $primary, $primary-outline, $white); color: $primary; border: .15em solid $primary; }
+    &.secondary-outlined { @include button($white, $secondary, $secondary-outline, $white); color: $secondary; border: .15em solid $secondary; }
+    &.success-outlined { @include button($white, $success, $success-outline, $white); color: $success; border: .15em solid $success; }
+    &.danger-outlined { @include button($white, $danger, $danger-outline, $white); color: $danger; border: .15em solid $danger; }
+    &.warning-outlined { @include button($white, $warning, $warning-outline, $grey-darker); color: $warning; border: .15em solid $warning; }
+    &.info-outlined { @include button($white, $info, $info-outline, $white); color: $info; border: .15em solid $info; }
+    &.link-outlined { @include button($white, $link, $link-outline, $white); color: $link; border: .15em solid $link; }
+    &.dark-outlined { @include button($white, $dark, $dark-outline, $white); color: $dark; border: .15em solid $dark; }
 
     // Sizes
     &.sm { font-size: 0.75rem; }

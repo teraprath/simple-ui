@@ -15,11 +15,11 @@
     font-size: 1rem;
 }
 
-@mixin button($color, $shadow, $outline) {
+@mixin button($color, $shadow, $outline, $outline-text: null) {
     background-color: $color;
     cursor: pointer;
     user-select: none;
-    transition: .3s;
-    &:hover { background-color: $shadow; }
+    transition: .2s;
+    &:hover { background-color: $shadow; @if $outline-text { color: $outline-text; } }
     &:focus { outline: .15em solid $outline; transition: .05s; }
 }
