@@ -7,18 +7,19 @@
 .mv-auto { margin: { top: auto !important; bottom: auto !important; }}
 @for $i from 0 through 25 {
     $val: .25em * $i !important;
+    $nval: .25em * -$i !important;
     .m-#{$i} { margin: $val; }
-    .m-n#{$i} { margin: -$val; }
+    .m-n#{$i} { margin: $nval; }
     .mt-#{$i} { margin-top: $val; }
-    .mt-n#{$i} { margin-top: -$val; }
+    .mt-n#{$i} { margin-top: $nval; }
     .mr-#{$i} { margin-right: $val; }
-    .mr-n#{$i} { margin-right: -$val; }
+    .mr-n#{$i} { margin-right: $nval; }
     .mb-#{$i} { margin-bottom: $val; }
     .mb-n#{$i} { margin-bottom: -$val; }
     .ml-#{$i} { margin-left: $val; }
-    .ml-n#{$i} { margin-left: -$val; }
+    .ml-n#{$i} { margin-left: $nval; }
     .mh-#{$i} { margin: { left: $val; right: $val; }}
-    .mh-n#{$i} { margin: { left: -$val; right: -$val; }}
+    .mh-n#{$i} { margin: { left: $nval; right: $nval; }}
     .mv-#{$i} { margin: { top: $val; bottom: $val; }}
-    .mv-n#{$i} { margin: { top: -$val; bottom: -$val; }}
+    .mv-n#{$i} { margin: { top: $nval; bottom: $nval; }}
 }
