@@ -1,8 +1,8 @@
 .box {
     background-color: $white;
     box-shadow: $box-shadow-md;
-    border-radius: $radius-md;
-    padding: 1.25em;
+    border-radius: $radius-xl;
+    padding: 1.5em;
     margin: 1em;
 
     &.border-primary { border-left: .45em solid $primary;}

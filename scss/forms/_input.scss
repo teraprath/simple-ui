@@ -1,0 +1,26 @@
+.input {
+    width: 100%;
+    padding: .5em .95em;
+    outline: none;
+    border: none;
+    border-radius: $radius-xl;
+    background-color: $light;
+    @include input($primary-outline);
+        
+
+    // Colors
+    &.primary { @include input($primary-outline); }
+    &.secondary { @include input($secondary-outline); }
+    &.success { @include input($success-outline); }
+    &.danger { @include input($danger-outline); }
+    &.warning { @include input($warning-outline); }
+    &.info { @include input($info-outline); }
+    &.link { @include input($link-outline); }
+    &.dark { @include input($dark-outline); }
+
+    // Sizes
+    &.sm { input { font-size: 0.75rem; }}
+    &.md { input { font-size: 1rem; }}
+    &.lg { input { font-size: 1.25rem; }}
+    &.xl { input { font-size: 1.5rem; }}
+}

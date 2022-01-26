@@ -4189,12 +4189,108 @@ section.section.full {
   max-height: 99em !important;
 }
 
+.form .field {
+  width: 100%;
+  margin: .75em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .75em;
+}
+
+.control {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: .5em .95em;
+  outline: none;
+  border: none;
+  border-radius: 1.25em;
+  background-color: #f0f0f0;
+}
+
+.input:focus {
+  outline: 0.15em solid rgba(0, 123, 255, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.primary:focus {
+  outline: 0.15em solid rgba(0, 123, 255, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.secondary:focus {
+  outline: 0.15em solid rgba(109, 118, 126, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.success:focus {
+  outline: 0.15em solid rgba(74, 211, 106, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.danger:focus {
+  outline: 0.15em solid rgba(211, 54, 62, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.warning:focus {
+  outline: 0.15em solid rgba(156, 229, 21, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.info:focus {
+  outline: 0.15em solid rgba(14, 147, 180, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.link:focus {
+  outline: 0.15em solid rgba(50, 115, 220, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.dark:focus {
+  outline: 0.15em solid rgba(53, 59, 65, 0.5);
+  -webkit-transition: .05s;
+  transition: .05s;
+}
+
+.input.sm input {
+  font-size: 0.75rem;
+}
+
+.input.md input {
+  font-size: 1rem;
+}
+
+.input.lg input {
+  font-size: 1.25rem;
+}
+
+.input.xl input {
+  font-size: 1.5rem;
+}
+
 .box {
   background-color: white;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  border-radius: 0.75em;
-  padding: 1.25em;
+  border-radius: 1.25em;
+  padding: 1.5em;
   margin: 1em;
 }
 
@@ -4238,7 +4334,7 @@ section.section.full {
   padding: .5em .95em;
   border: none;
   outline: none;
-  border-radius: 1.5em;
+  border-radius: 1.25em;
   color: white;
   font-weight: 500;
   text-decoration: none;
@@ -4929,7 +5025,7 @@ section.section.full {
   padding: .5em .95em;
   border: none;
   outline: none;
-  border-radius: 1.5em;
+  border-radius: 1.25em;
   color: white;
   font-weight: 500;
   text-decoration: none;
