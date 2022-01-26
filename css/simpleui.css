@@ -716,9 +716,14 @@ code {
   white-space: nowrap;
 }
 
+.table td {
+  padding: 1.25em 2em 1.25em 0;
+}
+
 .table thead td {
   color: #7a7a7a;
   font-weight: 600;
+  padding-top: 0;
 }
 
 .table tbody tr {
@@ -731,8 +736,8 @@ code {
   background-color: whitesmoke;
 }
 
-.table td {
-  padding: 1.25em 2em 1.25em 0;
+section {
+  padding: 1.5em;
 }
 
 section.section.full {
@@ -3345,6 +3350,10 @@ section.section.full {
   padding: 1.5em;
 }
 
+.box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
+  margin-bottom: .75em;
+}
+
 .box.border-primary {
   border-left: 0.45em solid #007bff;
 }
@@ -4026,7 +4035,7 @@ section.section.full {
 .navbar {
   width: 100%;
   background-color: transparent;
-  padding: 1.25em;
+  padding: 1.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4040,8 +4049,13 @@ section.section.full {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 1.25em;
+  gap: 1.5em;
   z-index: 1;
+}
+
+.navbar .logo {
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 .navbar .logo p, .navbar .logo a {
@@ -4054,6 +4068,10 @@ section.section.full {
   cursor: pointer;
   text-decoration: none;
   color: #363636;
+}
+
+.navbar .logo:hover {
+  opacity: 0.8;
 }
 
 .navbar .items {
@@ -4073,7 +4091,7 @@ section.section.full {
           justify-content: space-between;
 }
 
-.navbar .items ul {
+.navbar .items ul, .navbar .items ol {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4085,11 +4103,15 @@ section.section.full {
   gap: 1.25em;
 }
 
-.navbar .items ul li {
+.navbar .items ul li, .navbar .items ol li {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-.navbar .items ul li a {
+.navbar .items ul li a, .navbar .items ol li a {
   text-decoration: none;
   color: #7a7a7a;
   font-size: 1rem;
@@ -4097,8 +4119,48 @@ section.section.full {
   transition: .2s;
 }
 
-.navbar .items ul li a:hover {
+.navbar .items ul li a i, .navbar .items ol li a i {
+  color: #7a7a7a;
+}
+
+.navbar .items ul li a:hover, .navbar .items ol li a:hover {
   color: #363636;
+}
+
+.navbar .items ul li a:hover i, .navbar .items ol li a:hover i {
+  color: #363636;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.navbar .items ul li.dropdown .dropdown-content, .navbar .items ol li.dropdown .dropdown-content {
+  min-width: 8em;
+  display: none;
+  position: absolute;
+  padding-top: .75em;
+}
+
+.navbar .items ul li.dropdown .dropdown-content ul, .navbar .items ul li.dropdown .dropdown-content ol, .navbar .items ol li.dropdown .dropdown-content ul, .navbar .items ol li.dropdown .dropdown-content ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  padding: 1em;
+  border-radius: 0.25em;
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.navbar .items ul li.dropdown .dropdown-content:hover, .navbar .items ol li.dropdown .dropdown-content:hover {
+  display: block;
+}
+
+.navbar .items ul li.dropdown:hover .dropdown-content, .navbar .items ol li.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media screen and (max-width: 576px) {

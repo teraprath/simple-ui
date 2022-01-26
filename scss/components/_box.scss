@@ -4,6 +4,8 @@
     border-radius: $radius-xl;
     padding: 1.5em;
 
+    h1, h2, h3, h4, h5, h6 { margin-bottom: .75em; }
+
     &.border-primary { border-left: .45em solid $primary;}
     &.border-secondary { border-left: .45em solid $secondary;}
     &.border-success { border-left: .45em solid $success;}
