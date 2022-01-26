@@ -3,11 +3,11 @@
     height: 1em;
     background-color: $white-ter;
     border-radius: $radius-md;
+    overflow: hidden;
     
     .bar {
         height: 100%;
         background-color: $grey;
-        border: { top-left-radius: $radius-md; bottom-left-radius: $radius-md; }
     }
 
     // Colors

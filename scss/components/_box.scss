@@ -2,16 +2,16 @@
     background-color: $white;
     box-shadow: $box-shadow-md;
     border-radius: $radius-md;
-    padding: 1em;
+    padding: 1.25em;
     margin: 1em;
 
-    &.border-primary { border-left: .4em solid $primary;}
-    &.border-secondary { border-left: .4em solid $secondary;}
-    &.border-success { border-left: .4em solid $success;}
-    &.border-danger { border-left: .4em solid $danger;}
-    &.border-warning { border-left: .4em solid $warning;}
-    &.border-info { border-left: .4em solid $info;}
-    &.border-link { border-left: .4em solid $link;}
-    &.border-light { border-left: .4em solid $light;}
-    &.border-dark { border-left: .4em solid $dark;}
+    &.border-primary { border-left: .45em solid $primary;}
+    &.border-secondary { border-left: .45em solid $secondary;}
+    &.border-success { border-left: .45em solid $success;}
+    &.border-danger { border-left: .45em solid $danger;}
+    &.border-warning { border-left: .45em solid $warning;}
+    &.border-info { border-left: .45em solid $info;}
+    &.border-link { border-left: .45em solid $link;}
+    &.border-light { border-left: .45em solid $light;}
+    &.border-dark { border-left: .45em solid $dark;}
 }

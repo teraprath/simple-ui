@@ -1,0 +1,45 @@
+.tag {
+    @include tag;
+    background-color: $primary;
+
+    // Colors
+    &.primary { background-color: $primary; }
+    &.secondary { background-color: $secondary; }
+    &.success { background-color: $success; }
+    &.danger { background-color: $danger; }
+    &.warning { background-color: $warning; color: $grey-darker; }
+    &.info { background-color: $info; }
+    &.link { background-color: $link; }
+    &.light { background-color: $light; color: $grey-darker; }
+    &.dark { background-color: $dark; }
+
+    &.primary-light { background-color: $primary-light; color: $primary; }
+    &.secondary-light { background-color: $secondary-light; color: $secondary; }
+    &.success-light { background-color: $success-light; color: $success; }
+    &.danger-light { background-color: $danger-light; color: $danger; }
+    &.warning-light { background-color: $warning-light; color: $warning; }
+    &.info-light { background-color: $info-light; color: $info; }
+    &.link-light { background-color: $link-light; color: $link; }
+    &.dark-light { background-color: $dark-light; color: $dark; }
+
+    // Sizes
+    &.sm { font-size: 0.75rem; }
+    &.md { font-size: 1rem; }
+    &.lg { font-size: 1.25rem; }
+    &.xl { font-size: 1.5rem; }
+
+    // Icons
+    &.icon-left {
+        .fas, .far {
+            color: $white;
+            margin-right: .25em;
+        }
+    }
+    
+    &.icon-right {
+        .fas, .far {
+            color: $white;
+            margin-left: .25em;
+        }
+    }
+}

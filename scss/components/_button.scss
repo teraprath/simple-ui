@@ -1,17 +1,6 @@
 .button {
-    padding: .5em 1em;
-    border: none;
-    outline: none;
-    border-radius: $radius-md;
-    cursor: pointer;
-    color: $white;
-    font-weight: 500;
-    text-decoration: none;
-    user-select: none;
-
-    // Default
+    @include tag;
     @include button($primary, $primary-shadow, $primary-outline);
-    font-size: 1rem;
 
     // Colors
     &.primary { @include button($primary, $primary-shadow, $primary-outline); }
@@ -32,6 +21,8 @@
     &.info-light { @include button($info-light, $info-light-shadow, $info-outline); color: $info; }
     &.link-light { @include button($link-light, $link-light-shadow, $link-outline); color: $link; }
     &.dark-light { @include button($dark-light, $dark-light-shadow, $dark-outline); color: $dark; }
+
+    // TODO: Outlined-Version
 
     // Sizes
     &.sm { font-size: 0.75rem; }

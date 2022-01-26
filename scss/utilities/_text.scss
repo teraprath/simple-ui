@@ -1,19 +1,21 @@
-h1 { font: { size: calc(1.375rem + 1.5vw); weight: $fw-medium; } @include heading; }
-h2 { font: { size: calc(1.325rem + .9vw); weight: $fw-medium; } @include heading; }
-h3 { font: { size: calc(1.3rem + .6vw); weight: $fw-medium; } @include heading; }
-h4 { font: { size: calc(1.275rem + .3vw); weight: $fw-medium; } @include heading; }
-h5 { font: { size: 1.25rem; weight: $fw-medium; } @include heading; }
-h6 { font: { size: 1rem; weight: $fw-medium; } @include heading; }
+h1 { font: { size: calc(1.375rem + 1.5vw); weight: $fw-semi-bold; } @include heading; }
+h2 { font: { size: calc(1.325rem + .9vw); weight: $fw-semi-bold; } @include heading; }
+h3 { font: { size: calc(1.3rem + .6vw); weight: $fw-semi-bold; } @include heading; }
+h4 { font: { size: calc(1.275rem + .3vw); weight: $fw-semi-bold; } @include heading; }
+h5 { font: { size: 1.25rem; weight: $fw-semi-bold; } @include heading; }
+h6 { font: { size: 1rem; weight: $fw-semi-bold; } @include heading; }
 
-.display-1 { font-size: calc(1.625rem + 4.5vw); }
-.display-2 { font-size: calc(1.575rem + 3.9vw); }
-.display-3 { font-size: calc(1.525rem + 3.3vw); }
-.display-4 { font-size: calc(1.475rem + 2.7vw); }
-.display-5 { font-size: calc(1.425rem + 2.1vw); }
-.display-6 { font-size: calc(1.375rem + 1.5vw); }
+.display-1 { font: { size: calc(1.625rem + 4.5vw); }}
+.display-2 { font: { size: calc(1.575rem + 3.9vw); }}
+.display-3 { font: { size: calc(1.525rem + 3.3vw); }}
+.display-4 { font: { size: calc(1.475rem + 2.7vw); }}
+.display-5 { font: { size: calc(1.425rem + 2.1vw); }}
+.display-6 { font: { size: calc(1.375rem + 1.5vw); }}
 
 p, a, pre { font: { family: $font; size: 1rem; weight: $fw-normal; }}
 a { color: $link; }
+
+strong { font-weight: $fw-semi-bold; }
 
 .fs-1, .font-size-1 { font-size: calc(1.375rem + 1.5vw) !important; }
 .fs-2, .font-size-2 { font-size: calc(1.325rem + .9vw) !important; }

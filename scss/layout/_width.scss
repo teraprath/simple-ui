@@ -5,29 +5,3 @@
 .w-1-5 { width: 20% !important; }
 .w-2-5 { width: 40% !important; }
 .w-3-5 { width: 60% !important; }
-.w-4-5 { width: 80% !important; }
-
-.mw-full { min-width: 100% !important; }
-.mw-half { min-width: 50% !important; }
-.mw-1-4 { min-width: 25% !important; }
-.mw-3-4 { min-width: 75% !important; }
-.mw-1-5 { min-width: 20% !important; }
-.mw-2-5 { min-width: 40% !important; }
-.mw-3-5 { min-width: 60% !important; }
-.mw-4-5 { min-width: 80% !important; }
-
-.mxw-full { max-width: 100% !important; }
-.mxw-half { max-width: 50% !important; }
-.mxw-1-4 { max-width: 25% !important; }
-.mxw-3-4 { max-width: 75% !important; }
-.mxw-1-5 { max-width: 20% !important; }
-.mxw-2-5 { max-width: 40% !important; }
-.mxw-3-5 { max-width: 60% !important; }
-.mxw-4-5 { max-width: 80% !important; }
-
-@for $i from 0 to 100 {
-    $val: 1em * $i !important;
-    .w-#{$i} { width: $val; }
-    .mw-#{$i} { min-width: $val; }
-    .mxw-#{$i} { max-width: $val; }
-}

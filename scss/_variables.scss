@@ -13,15 +13,15 @@ $link: hsl(217, 71%, 53%);
 $light: hsl(210, 17%, 98%);
 $dark: hsl(210, 10%, 23%);
 
-$primary-shadow: hsl(211, 100%, 47%);
-$secondary-shadow: hsl(208, 7%, 43%);
-$success-shadow: hsl(134, 55%, 44%);
-$danger-shadow: hsl(354, 70%, 51%);
-$warning-shadow: hsl(45, 100%, 48%);
-$info-shadow: hsl(188, 78%, 38%);
-$link-shadow: hsl(217, 71%, 50%);
-$light-shadow: hsl(210, 17%, 96%);
-$dark-shadow: hsl(210, 10%, 20%);
+$primary-shadow: hsl(211, 100%, 46%);
+$secondary-shadow: hsl(208, 7%, 42%);
+$success-shadow: hsl(134, 55%, 43%);
+$danger-shadow: hsl(354, 70%, 50%);
+$warning-shadow: hsl(45, 100%, 47%);
+$info-shadow: hsl(188, 78%, 37%);
+$link-shadow: hsl(217, 71%, 49%);
+$light-shadow: hsl(210, 17%, 95%);
+$dark-shadow: hsl(210, 10%, 19%);
 
 $primary-light: hsla(211, 100%, 50%, 0.25);
 $secondary-light: hsla(208, 7%, 46%, 0.25);
@@ -77,9 +77,10 @@ $box-shadow-md: 0 .5rem 1rem rgba(0, 0, 0, .15);
 $box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, .175);
 
 // Border Radius
-$radius-none: none;
+$radius-none: 0;
 $radius-sm: 0.25em;
-$radius-md: 0.5em;
+$radius-md: 0.75em;
 $radius-lg: 1em;
 $radius-xl: 1.25em;
+$radius-xxl: 1.5em;
 $radius-circle: 100%;
