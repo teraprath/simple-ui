@@ -76,34 +76,88 @@
         }
     }
 
+    .mobile-items { 
+        display: none;
+
+        .mobile-icon {
+            transform: .2s;
+            &:hover { opacity: 0.8; }
+        }
+
+        .mobile-content {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            background-color: $white;
+            padding: 1em;
+            z-index: 999;
+
+            ul {
+                list-style-type: none;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: .5em;
+
+                li {
+                    transition: .2s;
+                    &:hover { opacity: 0.8; }
+
+                    a {
+                        color: $grey-darker;
+                        text-decoration: none;
+                        font-size: 1.75rem;
+                    }
+                }
+            }
+
+            .close {
+                position: absolute;
+                top: 0;
+                right: 3.5em;
+                cursor: pointer;
+
+                transition: .2s;
+                &:hover { opacity: 0.8; }
+
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    content: "\d7";
+                    font-size: 3.75rem;
+                    color: $grey-darker;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
     // TODO: Responsive Navbar
     &.breakpoint-sm {
-        @media screen and (max-width: $breakpoint-sm) {
-            .items { display: none; }
-        }
+        @media screen and (max-width: $breakpoint-sm) { @include responsive-navbar; }
     }
 
     &.breakpoint-md {
-        @media screen and (max-width: $breakpoint-md) {
-            .items { display: none; }
-        }
+        @media screen and (max-width: $breakpoint-md) { @include responsive-navbar; }
     }
 
     &.breakpoint-lg {
-        @media screen and (max-width: $breakpoint-lg) {
-            .items { display: none; }
-        }
+        @media screen and (max-width: $breakpoint-lg) { @include responsive-navbar; }
     }
 
     &.breakpoint-xl {
-        @media screen and (max-width: $breakpoint-xl) {
-            .items { display: none; }
-        }
+        @media screen and (max-width: $breakpoint-xl) { @include responsive-navbar; }
     }
 
     &.breakpoint-xxl {
-        @media screen and (max-width: $breakpoint-xxl) {
-            .items { display: none; }
-        }
+        @media screen and (max-width: $breakpoint-xxl) { @include responsive-navbar; }
     }
 }

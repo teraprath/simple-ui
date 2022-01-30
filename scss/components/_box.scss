@@ -1,7 +1,7 @@
 .box {
     background-color: $white;
-    box-shadow: $box-shadow-md;
-    border-radius: $radius-xl;
+    box-shadow: $box-shadow-sm;
+    border-radius: $radius-md;
     padding: 1.5em;
 
     h1, h2, h3, h4, h5, h6 { margin-bottom: .75em; }
@@ -15,4 +15,11 @@
     &.border-link { border-left: .45em solid $link;}
     &.border-light { border-left: .45em solid $light;}
     &.border-dark { border-left: .45em solid $dark;}
+
+    &.hoverable {
+        transition: .2s;
+        &:hover {
+            box-shadow: $box-shadow-lg;
+        }
+    }
 }

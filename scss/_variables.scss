@@ -1,10 +1,10 @@
 // Font
-$font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$font: 'Inter', sans-serif;
 $code: 'Inconsolata', monospace;
 
 // Color Palette
-$primary: hsl(211, 100%, 50%);
-$secondary: hsl(208, 7%, 46%);
+$primary: hsl(13, 72%, 55%);
+$secondary: hsl(343, 72%, 55%);
 $success: hsl(134, 61%, 56%);
 $danger: hsl(357, 64%, 52%);
 $warning: hsl(81, 83%, 49%);
@@ -13,8 +13,8 @@ $link: hsl(217, 71%, 53%);
 $light: hsl(0, 0%, 94%);
 $dark: hsl(210, 10%, 23%);
 
-$primary-shadow: hsl(211, 100%, 50%-4);
-$secondary-shadow: hsl(208, 7%, 46%-4);
+$primary-shadow: hsl(13, 72%, 55%-4);
+$secondary-shadow: hsl(343, 72%, 55%-4);
 $success-shadow: hsl(134, 61%, 56%-4);
 $danger-shadow: hsl(357, 64%, 52%-4);
 $warning-shadow: hsl(81, 83%, 49%-4);
@@ -23,8 +23,8 @@ $link-shadow: hsl(217, 71%, 53%-4);
 $light-shadow: hsl(0, 0%, 94%-4);
 $dark-shadow: hsl(210, 10%, 23%-4);
 
-$primary-light: hsla(211, 100%, 50%, 0.25);
-$secondary-light: hsla(208, 7%, 46%, 0.25);
+$primary-light: hsla(13, 72%, 55%, 0.25);
+$secondary-light: hsla(343, 72%, 55%, 0.25);
 $success-light: hsla(134, 61%, 56%, 0.25);
 $danger-light: hsla(357, 64%, 52%, 0.25);
 $warning-light: hsla(81, 83%, 49%, 0.25);
@@ -33,8 +33,8 @@ $link-light: hsla(217, 71%, 53%, 0.25);
 $light-light: hsla(210, 17%, 73%, 0.25);
 $dark-light: hsla(210, 10%, 23%, 0.25);
 
-$primary-light-shadow: hsla(211, 100%, 50%, 0.4);
-$secondary-light-shadow: hsla(208, 7%, 46%, 0.4);
+$primary-light-shadow: hsla(13, 72%, 55%, 0.4);
+$secondary-light-shadow: hsla(343, 72%, 55%, 0.4);
 $success-light-shadow: hsla(134, 61%, 56%, 0.4);
 $danger-light-shadow: hsla(357, 64%, 52%, 0.4);
 $warning-light-shadow: hsla(81, 83%, 49%, 0.4);
@@ -43,8 +43,8 @@ $link-light-shadow: hsla(217, 71%, 53%, 0.4);
 $light-light-shadow: hsla(210, 17%, 73%, 0.4);
 $dark-light-shadow: hsla(210, 10%, 23%, 0.4);
 
-$primary-outline: hsla(211, 100%, 50%, 0.5);
-$secondary-outline: hsla(208, 7%, 46%, 0.5);
+$primary-outline: hsla(13, 72%, 55%, 0.5);
+$secondary-outline: hsla(343, 72%, 55%, 0.5);
 $success-outline: hsla(134, 61%, 56%, 0.5);
 $danger-outline: hsla(357, 64%, 52%, 0.5);
 $warning-outline: hsla(81, 83%, 49%, 0.5);
@@ -78,8 +78,8 @@ $box-shadow-lg: 0 .5rem 1rem rgba(0, 0, 0, .15);
 
 // Border Radius
 $radius-none: 0;
-$radius-sm: 0.25em;
-$radius-md: 0.75em;
+$radius-sm: .375em;
+$radius-md: .75em;
 $radius-lg: 1em;
 $radius-xl: 1.25em;
 $radius-xxl: 1.5em;
@@ -91,3 +91,16 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 $breakpoint-xxl: 1400px;
+
+// Screens
+$sm-screen: 600px;
+$md-screen: 992px;
+$lg-screen: 1200px;
+
+// Media Queries
+$md-up: "only screen and (min-width : #{$sm-screen + 1})";
+$lg-up: "only screen and (min-width : #{$md-screen + 1})";
+$xl-up: "only screen and (min-width : #{$lg-screen + 1})";
+$sm-down: "only screen and (max-width : #{$sm-screen})";
+$md-down: "only screen and (max-width : #{$md-screen})";
+$md-only: "only screen and (min-width : #{$sm-screen + 1}) and (max-width : #{$md-screen})";

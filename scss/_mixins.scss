@@ -4,14 +4,14 @@
 }
 
 @mixin tag {
-    padding: .5em .95em;
+    padding: .75em 1.2em;
     border: none;
     outline: none;
-    border-radius: $radius-xl;
+    border-radius: $radius-md;
     color: $white;
     font-weight: 500;
     text-decoration: none;
-    font-weight: $fw-semi-bold;
+    font-weight: $fw-medium;
     font-size: 1rem;
 }
 
@@ -26,4 +26,11 @@
 
 @mixin input($color) {
     &:focus { outline: .15em solid $color; transition: .05s; }
+}
+
+@mixin responsive-navbar {
+    .items { display: none; }
+    .mobile-items {
+        display: block;
+    } 
 }

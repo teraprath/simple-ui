@@ -18,9 +18,16 @@
     tbody {
         tr { 
             border-top: .1em solid $white-ter; 
-            transition: .2s;
-            &:hover {
+        }
+    }
+
+    &.hoverable {
+        tbody {
+            tr {
+                transition: .2s;
+                &:hover {
                     background-color: $white-ter;
+                }
             }
         }
     }

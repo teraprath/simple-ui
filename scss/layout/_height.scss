@@ -7,6 +7,15 @@
 .h-3-5 { min-height: 60% !important; }
 .h-4-5 { min-height: 80% !important; }
 
+.vh-full { height: 100vh !important; }
+.vh-half { height: 50vh !important; }
+.vh-1-4 { height: 25vh !important; }
+.vh-3-4 { height: 75vh !important; }
+.vh-1-5 { height: 20vh !important; }
+.vh-2-5 { height: 40vh !important; }
+.vh-3-5 { height: 60vh !important; }
+.vh-4-5 { height: 80vh !important; }
+
 @for $i from 0 to 76 {
     $val: 1em * $i !important;
     .h-#{$i} { height: $val; }

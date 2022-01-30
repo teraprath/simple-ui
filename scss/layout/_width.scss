@@ -5,56 +5,6 @@
 .w-1-5 { width: 20% !important; }
 .w-2-5 { width: 40% !important; }
 .w-3-5 { width: 60% !important; }
-
-
 @for $i from 0 to 76 {
     .w-#{$i} { width: 1em * $i; }
-}
-
-@media screen and (max-width: $breakpoint-sm) {
-    .w-sm { width: 100%; }
-    .w-md { width: 100%; }
-    .w-lg { width: 100%; }
-    .w-xl { width: 100%; }
-    .w-xxl { width: 100%; }
-}
-
-@media screen and (min-width: $breakpoint-sm) {
-    .w-sm { width: 14em; }
-    .w-md { width: 100%; }
-    .w-lg { width: 100%; }
-    .w-xl { width: 100%; }
-    .w-xxl { width: 100%; }
-}
-
-@media screen and (min-width: $breakpoint-md) {
-    .w-sm { width: 14em; }
-    .w-md { width: 18em; }
-    .w-lg { width: 100%; }
-    .w-xl { width: 100%; }
-    .w-xxl { width: 100%; }
-}
-
-@media screen and (min-width: $breakpoint-lg) {
-    .w-sm { width: 14em; }
-    .w-md { width: 18em; }
-    .w-lg { width: 26em; }
-    .w-xl { width: 100%; }
-    .w-xxl { width: 100%; }
-}
-
-@media screen and (min-width: $breakpoint-xl) {
-    .w-sm { width: 18em; }
-    .w-md { width: 22em; }
-    .w-lg { width: 30em; }
-    .w-xl { width: 36em; }
-    .w-xxl { width: 100%; }
-}
-
-@media screen and (min-width: $breakpoint-xxl) {
-    .w-sm { width: 18em; }
-    .w-md { width: 26em; }
-    .w-lg { width: 34em; }
-    .w-xl { width: 42em; }
-    .w-xxl { width: 50em; }
 }

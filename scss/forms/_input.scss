@@ -1,9 +1,9 @@
 .input {
     width: 100%;
-    padding: .5em .95em;
+    padding: .7em .95em;
     outline: none;
     border: none;
-    border-radius: $radius-xl;
+    border-radius: $radius-md;
     background-color: $light;
     @include input($primary-outline);
         
